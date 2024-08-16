@@ -13,7 +13,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className="w-full px-8 pt-8">
+        <div className="xl:flex hidden w-full px-8 pt-8">
             <div className="bg-white w-full rounded-t-[48px]">
                 <div className="flex overflow-hidden rounded-t-[48px] bg-base-200">
                     <motion.ul

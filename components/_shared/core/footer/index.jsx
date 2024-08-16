@@ -6,7 +6,7 @@ const Footer = ({
     className
 }) => {
     return (
-        <footer className={`footer footer-center p-4 bg-base-100 text-base-content min-h-[32rem] flex items-start ${className}`}
+        <footer className={`xl:flex hidden footer footer-center p-4 bg-base-100 text-base-content min-h-[32rem]  items-start ${className}`}
             style={{
                 backgroundImage: `url(${AssetContants.footer1})`,
                 backgroundSize: 'contain',
